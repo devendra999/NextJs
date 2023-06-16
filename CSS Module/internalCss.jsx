@@ -6,9 +6,11 @@ const internalCss = () => {
         {/* internal css - work only this components */}
 
         <h1>hello World</h1>
+        <p className='channel'>subscribe to my channel</p>
         <style jsx>
           {`
             h1 { color: red; }
+            .channel { color: green; }
           `}
         </style>
         
