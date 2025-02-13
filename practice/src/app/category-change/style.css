@@ -1,0 +1,19 @@
+.tasklist {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.tasklist .single-category {
+    width: 250px;
+    background: beige;
+    margin-right: 30px;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+
+.tasklist .single-task {
+    background: bisque;
+    margin-top: 0.5rem;
+    padding: 0 0.5rem;
+    border-radius: 0.5rem;
+}

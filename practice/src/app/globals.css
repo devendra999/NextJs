@@ -1,0 +1,182 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", serif;
+  font-weight: 300;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 1rem;
+  line-height: 2rem;
+  color: #000;
+}
+
+
+.container {
+  max-width: 1400px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+hr {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+
+button {
+  padding: 0.8rem 1rem;
+  margin: 0 0.5rem 0.5rem 0;
+  background: #dcf9ce;
+  border: 2px solid #dcf9ce;
+  border-radius: 5px;
+  color: #000;
+  text-transform: capitalize;
+  cursor: pointer;
+  transition: 0.5s all;
+}
+
+button:hover {
+  background: transparent;
+  border-color: #000;
+}
+
+.header {
+  position: relative;
+  background: #6bb8ff;
+}
+
+.header.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 99999999999;
+  max-width: 1400px;
+}
+
+.header ul {
+  display: flex;
+  list-style: none;
+}
+
+.header ul a {
+  display: inline-block;
+  padding: 1rem;
+  color: #fff;
+  text-decoration: none;
+  text-transform: capitalize;
+}
+
+
+/* src/Accordion.css */
+.accordion {
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ddd;
+}
+
+.accordion-header {
+  padding: 10px;
+  cursor: pointer;
+  background-color: #f5f5f5;
+}
+
+.accordion-content {
+  padding: 10px;
+  scroll-behavior: smooth;
+}
+
+
+.section {
+  width: 100%;
+  height: 1200px;
+}
+
+.header-sticky {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #f00;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  background: #f2f2f2;
+  padding: 1rem;
+  z-index: 9999;
+}
+.fixed ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.fixed ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.fixed ul li a {
+  text-decoration: none;
+  color: black;
+}
+
+.fixed ul li.active a {
+  color: red; /* Highlight color for active section */
+}
+
+#home, #about, #contact {
+  width: 100%;
+  height: 2000px;
+  display: block;
+}
